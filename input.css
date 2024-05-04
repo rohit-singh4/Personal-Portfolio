@@ -1,0 +1,28 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+
+@layer components {
+    a{
+        transition: transform 0.2s ease; /* Add transition */
+    }
+    
+    a:hover {
+      transform: scale(1.35); /* Scale up on hover */
+    }
+    li{
+        transition: transform 0.2s ease; /* Add transition */
+    }
+    
+    li:hover {
+      transform: scale(1.35); /* Scale up on hover */
+    }
+}
+  
+
+
+
+
